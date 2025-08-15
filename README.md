@@ -7,7 +7,7 @@
 
 ## 📚 Sobre o Projeto
 
-Este projeto foi desenvolvido como **Trabalho de Conclusão de Curso (TCC)** para o curso de **Análise e Desenvolvimento de Sistemas** da **Faculdade Gran**.
+Este projeto foi desenvolvido como **Projeto Integrador** para o curso de **Análise e Desenvolvimento de Sistemas** da **Faculdade Gran**.
 
 ### 🎓 **Objetivos do Projeto:**
 - Demonstrar competências técnicas em desenvolvimento web
@@ -128,9 +128,6 @@ DB_PASSWORD=sua_senha
 # Crie as tabelas no banco
 php artisan migrate:fresh --seed
 
-# Ou use o comando personalizado
-php artisan demo:seed
-```
 
 ### **6. Inicie o Servidor**
 ```bash
@@ -141,25 +138,16 @@ O sistema estará disponível em: `http://localhost:8000`
 
 ---
 
-## 📊 Dados de Demonstração
 
-### **4 Fornecedores Criados:**
-1. **Tech Solutions Ltda** - Fornecedor de equipamentos
-2. **Distribuidora Comercial S.A.** - Distribuidora de produtos
-3. **Fábrica Nacional de Produtos** - Fabricante industrial
-4. **Importadora Global Ltda** - Importadora de componentes
+## 📸 Screenshots do Sistema
 
-### **10 Produtos Criados:**
-- Notebook Dell Inspiron 15
-- Mouse Gamer Logitech G502
-- Teclado Mecânico Corsair K70
-- Monitor LG 24" Full HD
-- Impressora HP LaserJet Pro
-- Webcam Logitech C920
-- SSD Samsung 500GB
-- Memória RAM Kingston 8GB DDR4
-- Placa de Vídeo NVIDIA GTX 1660
-- Fonte Corsair 550W 80 Plus Bronze
+### 🏠 **Dashboard Principal**
+![Dashboard](screenshoots/dashboard.png)
+*Visão geral com estatísticas em tempo real, cards funcionais e ações rápidas*
+
+### 👥 **Módulo de Fornecedores**
+![Lista de Fornecedores](screenshoots/fornecedores-lista.png)
+*Listagem com paginação, ações e gerenciamento completo de fornecedores*
 
 ---
 
@@ -280,11 +268,11 @@ controle-estoque/
 
 ## 🎓 Sobre o Curso
 
-### **Instituição:** Faculdade Gran
+### **Instituição:** GranFaculdade 
 ### **Curso:** Análise e Desenvolvimento de Sistemas
 ### **Modalidade:** Tecnólogo
 ### **Duração:** 2 anos
-### **Tipo:** Trabalho de Conclusão de Curso (TCC)
+### **Tipo:** Projeto Integrador 4º período
 
 ### **Competências Desenvolvidas:**
 - ✅ **Desenvolvimento Web** com Laravel
@@ -298,38 +286,17 @@ controle-estoque/
 
 ---
 
-## 🚀 Próximos Passos
-
-### **Funcionalidades Futuras:**
-- 🔲 **Sistema de usuários** e autenticação
-- 🔲 **Relatórios** e gráficos
-- 🔲 **Histórico de movimentações** de estoque
-- 🔲 **Notificações** por email
-- 🔲 **API REST** para integração
-- 🔲 **Backup automático** do banco
-- 🔲 **Logs de auditoria** detalhados
-- 🔲 **Exportação** para Excel/PDF
-
-### **Melhorias Técnicas:**
-- 🔲 **Testes automatizados** (PHPUnit)
-- 🔲 **Cache Redis** para performance
-- 🔲 **Queue jobs** para tarefas pesadas
-- 🔲 **API rate limiting**
-- 🔲 **Documentação API** (Swagger)
-
----
-
 ## 👨‍💻 Desenvolvedor
 
-**Nome:** [Seu Nome]  
+**Nome:** Fábio Melo Salum
 **Curso:** Análise e Desenvolvimento de Sistemas  
-**Instituição:** Faculdade Gran  
+**Instituição:** GranFaculdade
 **Ano:** 2024  
 
 ### **Contato:**
-- 📧 **Email:** [seu-email@exemplo.com]
-- 🔗 **LinkedIn:** [linkedin.com/in/seu-perfil]
-- 🐙 **GitHub:** [github.com/seu-usuario]
+- 📧 **Email:** Fábio Melo Salum    
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/fabiosalum/
+- 🐙 **GitHub:** https://github.com/fabiosalum
 
 ---
 
@@ -339,17 +306,7 @@ Este projeto foi desenvolvido como trabalho acadêmico para o curso de Análise 
 
 ---
 
-## 🙏 Agradecimentos
-
-- **Faculdade Gran** pela oportunidade de aprendizado
-- **Professores** pela orientação e conhecimento compartilhado
-- **Colegas de curso** pelo apoio e colaboração
-- **Comunidade Laravel** pela excelente documentação e ferramentas
-
----
-
 ## ⭐ Se este projeto te ajudou, considere dar uma estrela!
 
 ---
 
-**Desenvolvido com ❤️ para conclusão do curso de Análise e Desenvolvimento de Sistemas**
